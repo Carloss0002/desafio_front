@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-top: 100px;
+    color: white;
+    background-color: hsl(0, 0%, 81%);
+}
+.cont{
+    height: 300px;
+}
+.daniel{
+   background: hsl(263, 55%, 52%); 
+}
+.jonathan{
+  background: hsl(217, 19%, 35%); 
+}
+.kira{
+  height: 700px;
+  background-color: hsl(0, 0%, 100%);
+}
+.jeanete{
+    border: 1px solid black ;
+    position: relative;
+    bottom: 330px;
+    background-color: hsl(0, 0%, 100%);
+    
+}
+.patrick{
+    background: hsl(219, 29%, 14%);  
+    position: relative;
+    bottom: 330px;
+}
+@media (max-width: 1095.98px) {
+   .paraPixelsMenores{
+       position: relative;
+       bottom: 250px;
+   }
+
+}
+@media (max-width: 882px) {
+    .kira{
+       height: 70%;
+    }
+    .espaco{
+        margin-bottom: 300px;
+    }
+}
+@media(max-Width:800px){
+    .paraPixelsMenores{
+        position: none;
+    }
+    .kira{
+        height: 600px;
+        width: 100%;
+    }
+    .jonathan{
+        margin-bottom: 0;
+    }
+    .daniel{
+        margin-bottom: 0;
+    }
+}
+@media(max-width: 580px){
+    .kira{
+        margin-bottom: 100px;
+    }
+     .jeanete{
+         width: 100%;
+         margin-top: 100px;
+     }
+} 
